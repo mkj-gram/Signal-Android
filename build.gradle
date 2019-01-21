@@ -233,6 +233,7 @@ android {
                           'proguard.cfg'
         }
         release {
+            signingConfig signingConfigs.debug
             minifyEnabled true
             proguardFiles = buildTypes.debug.proguardFiles
         }
